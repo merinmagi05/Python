@@ -1,0 +1,5 @@
+color=input("ENTER THE COLORS SEPERATED BY COMAS:")
+clist=color.split(',')
+print(clist)
+print("FIRST COLOR:",clist[0])
+print("LAST COLOR:",clist[-1])
